@@ -28,6 +28,10 @@ pre {
 	font-size: .75em;
 }
 
+.line-numbers {
+	font-size: .75em !important;
+}
+
 p code, li code {
 	border: none;
 	font-size: 90%;
@@ -140,6 +144,7 @@ table {
 
 #content {
 	background: #ffffff;
+	border: none;
 }
 
 #main {
@@ -165,6 +170,7 @@ table {
 
 .get-vcard {
 	margin-top: 1em;
+	font-size: .875em;
 }
 
 dl {
