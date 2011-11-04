@@ -1,0 +1,197 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+html { background: #ffffff; overflow-y: scroll; }
+body { font-size: 18px; }
+
+a { text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; }
+
+h1, h2, h3, h4 {
+	background: none;
+	font-weight: normal;
+	font-style: none;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.375em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: .875em; }
+
+body > header h1 {
+	font-weight: bold;
+	font-size: 2.3em;
+}
+
+pre {
+	font-size: .75em;
+}
+
+p code, li code {
+	border: none;
+	font-size: 90%;
+}
+
+body nav {
+	background: #ffffff;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+body > nav li {
+	font-size: 1.25em;
+}
+
+body > nav li + li, body > nav li + li a {
+	border: none;
+}
+
+body > nav form .search {
+	color: #555;
+	box-shadow: none;
+	width: 192px;
+	float: right;
+	font-size: 1.125em;
+}
+
+.maskImage a[rel="subscribe-rss"] {
+	background: #ffffff;
+	-webkit-mask-image: none;
+}
+
+body > footer {
+	font-size: .75em;
+	color: #000;
+	background: #ffffff;
+	border-top: 1px solid #ddd;
+	text-shadow: none;
+	text-align: center;
+}
+
+body > footer a, body > footer a:hover, body > footer a:focus, body > footer a:visited, body > footer a:active  {
+	color: #000;
+}
+
+body > footer ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+body > footer ul li {
+	float: left;
+	text-transform: uppercase;
+	margin-right: .5em
+}
+
+body > footer ul li:last-child {
+	float: right;
+	text-transform: none;
+	margin-right: 0;
+}
+
+article header, p.meta + .sharing {
+	background: none;
+}
+
+mark {
+	color: #666;
+	background-color: transparent;
+	font-weight: normal;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, Serif;
+}
+
+/* Tables */
+table {
+	margin: 0 auto;
+	margin-bottom: 2em;
+}
+
+thead, thead th {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+thead {
+	border-bottom: 2px solid #36c;
+}
+
+th, td {
+	padding: .25em .5em .25em .5em;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+table {
+	border: 2px solid #fff;
+}
+
+.highlight table {
+	border: 0;
+	margin: 0;
+}
+
+.highlight th, .highlight td {
+	padding: 0;
+	border: 1px solid #090909;
+	border-bottom: none;
+}
+
+#content {
+	background: #ffffff;
+}
+
+#main {
+	background: #ffffff;
+	border: none;
+}
+
+#content .blog-index article {
+	padding-top: 1em;
+}
+
+#content .blog-index article h1 {
+	font-size: 2em;
+}
+
+#content .blog-index article header {
+	padding-bottom: 1em;
+}
+
+.profile-image {
+	float: right;
+}
+
+.get-vcard {
+	margin-top: 1em;
+}
+
+dl {
+	margin-bottom: 1em;
+}
+
+dt {
+	clear: left;
+	float: left;
+	font-weight: bold;
+	padding-right: .5em;
+	width: 10em;
+}
+
+dt, dd, li {
+	padding-bottom: .75em;
+}
+
+.vcard dt {
+	text-align: right;
+	width: 6em;
+}
+
+.vcard dd {
+	margin-left: 6em;
+}
+
+.vcard dt, .vcard dd {
+	padding-bottom: .25em;
+}
