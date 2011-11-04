@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Aron Cedercrantz]]></title>
+  <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
+  <link href="http://aron.cedercrantz.com/"/>
+  <updated>2011-11-04T05:33:31+01:00</updated>
+  <id>http://aron.cedercrantz.com/</id>
+  <author>
+    <name><![CDATA[Aron Cedercrantz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[That first test post, you know]]></title>
+    <link href="http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post/"/>
+    <updated>2011-11-04T04:04:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post</id>
+    <content type="html"><![CDATA[<p>This is/will be a post designed to test Octopress as well as creating a custom theme for it.</p>
+
+<p>Some short <a href="#">parahraph</a>, some short parahraph. Some short parahraph. <a href="">Lorem Ipsum has been the</a> industry&#8217;s standard dummy text ever since <strong>the 1500s</strong>, when an <em>unknown printer</em> took a <mark>galley of type</mark> and scrambled it to make a type <code>specimen book</code>.</p>
+
+<blockquote><p>WWF&#8217;s ultimate goal is to build a future where people live in harmony with nature.</p></blockquote>
+
+<p>Some short <a href="#">parahraph</a>, some short parahraph. Some short parahraph. <a href="">Lorem Ipsum has been the</a> industry&#8217;s standard dummy text ever since <strong>the 1500s</strong>, when an <em>unknown printer</em> took a <mark>galley of type</mark> and scrambled it to make a type <code>specimen book</code>.</p>
+
+<figure class='code'><figcaption><span>CSS can be awesome? </span><a href='http://example.com/css'>Example CSS Link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.awesome-thingy</span> <span class="p">{</span>
+</span><span class='line'>    <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">0px</span> <span class="m">0px</span> <span class="m">20px</span> <span class="m">#000000</span><span class="p">;</span>
+</span><span class='line'>    <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">0px</span> <span class="m">0px</span> <span class="m">20px</span> <span class="m">#000000</span><span class="p">;</span>
+</span><span class='line'>    <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">0px</span> <span class="m">0px</span> <span class="m">20px</span> <span class="m">#000000</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Ruby</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="kp">include</span> <span class="no">Enumerable</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">rbconfig</span><span class="p">)</span>
+</span><span class='line'><span class="vi">@rbconfig</span> <span class="o">=</span> <span class="n">rbconfig</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">load_save</span>
+</span><span class='line'><span class="k">begin</span>
+</span><span class='line'>  <span class="no">File</span><span class="o">.</span><span class="n">foreach</span><span class="p">(</span><span class="n">adad</span><span class="p">)</span>
+</span><span class='line'>  <span class="nb">self</span><span class="o">[</span><span class="n">k</span><span class="o">]</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="mi">2</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  
+</span><span class='line'><span class="k">rescue</span> <span class="no">Errno</span><span class="o">::</span><span class="no">ENOENT</span>
+</span><span class='line'><span class="n">setup</span> <span class="vg">$!</span><span class="o">.</span><span class="n">message</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="si">#{</span><span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Objective-C</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+</pre></td><td class='code'><pre><code class='objective-c'><span class='line'><span class="cp">#import &lt;CDEvents/CDEvents.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">//...</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// This does cool stuff, or?</span>
+</span><span class='line'><span class="n">NSArray</span> <span class="o">*</span><span class="n">url</span>  <span class="o">=</span> <span class="p">[</span><span class="n">NSURL</span> <span class="nl">URLWithString:</span><span class="s">@&quot;/path/to/directory&quot;</span><span class="p">];</span>
+</span><span class='line'><span class="n">NSArray</span> <span class="o">*</span><span class="n">urls</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSArray</span> <span class="nl">arrayWithObject:</span><span class="n">url</span><span class="p">];</span>
+</span><span class='line'><span class="n">self</span><span class="p">.</span><span class="n">events</span>   <span class="o">=</span> <span class="p">[[</span><span class="n">CDEvents</span> <span class="n">alloc</span><span class="p">]]</span> <span class="nl">initWithURLs:</span><span class="n">urls</span> <span class="nl">block:</span>
+</span><span class='line'>                    <span class="o">^</span><span class="p">(</span><span class="n">CDEvents</span> <span class="o">*</span><span class="n">watcher</span><span class="p">,</span> <span class="n">CDEvent</span> <span class="o">*</span><span class="n">event</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>                        <span class="n">NSLog</span><span class="p">(</span>
+</span><span class='line'>                            <span class="s">@&quot;URLWatcher: %@</span><span class="se">\n</span><span class="s">Event: %@&quot;</span><span class="p">,</span>
+</span><span class='line'>                            <span class="n">watcher</span><span class="p">,</span>
+</span><span class='line'>                            <span class="n">event</span>
+</span><span class='line'>                        <span class="p">);</span>
+</span><span class='line'>                    <span class="p">}];</span>
+</span><span class='line'><span class="n">ThisBeSomeFunc</span><span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">str</span><span class="p">,</span> <span class="kt">char</span> <span class="n">c</span><span class="p">);</span>
+</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="n">foo</span> <span class="o">==</span> <span class="n">YES</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">NSLog</span><span class="p">(</span><span class="s">@&quot;%d&quot;</span><span class="p">,</span> <span class="mi">42</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>    <span class="p">[</span><span class="n">obj</span> <span class="nl">callOnObject:</span><span class="n">withArg1</span> <span class="nl">number:</span><span class="p">(</span><span class="mi">42</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)];</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="err">@</span><span class="n">implementation</span> <span class="n">NSString</span> <span class="p">(</span><span class="n">UUID</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">+</span> <span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">uuid</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="n">cool</span><span class="p">();</span>
+</span><span class='line'>    <span class="kt">id</span> <span class="n">foo</span> <span class="o">=</span> <span class="nb">nil</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">static</span> <span class="k">const</span> <span class="kt">unsigned</span> <span class="kt">char</span> <span class="n">sURLValidCharacters</span><span class="p">[</span><span class="mi">128</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="p">[</span><span class="sc">&#39; &#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+</span><span class='line'>    <span class="p">[</span><span class="sc">&#39;!&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">VALID</span> <span class="o">|</span> <span class="n">UNRESERVED</span> <span class="o">|</span> <span class="n">PATHVALID</span> <span class="p">,</span>
+</span><span class='line'>    <span class="p">[</span><span class="sc">&#39;&quot;&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+</span><span class='line'>    <span class="p">[</span><span class="sc">&#39;#&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+</span><span class='line'>    <span class="p">[</span><span class="sc">&#39;$&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">VALID</span> <span class="o">|</span> <span class="n">PATHVALID</span> <span class="p">,</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Oh this is worrysome</h2>
+
+<p><img src="http://aron.cedercrantz.com/images/size-text.jpg" alt="Awesome test image from A List Apart" /></p>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<ol>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+</ol>
+
+
+<p><img src="http://aron.cedercrantz.com/images/size-text.jpg" alt="Awesome test image from A List Apart" /></p>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<ul>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+</ul>
+
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+<h2>Another level two heading</h2>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<dl>
+    <dt>Cascading Style Sheets</dt>
+    <dd>Style sheets are used to provide presentational suggestions for structured documents marked up in XML or HTML.</dd>
+    
+    <dt>Cascading Style Sheets 2</dt>
+    <dd>Style sheets are used to provide presentational suggestions for structured documents marked up in XML or HTML.</dd>
+    
+    <dt>Center</dt>
+    <dd>A point equidistant from all points on the surface of a sphere.</dd>
+</dl>
+
+
+
+
+<p>test lol hej</p>
+
+
+<h3>Another level three heading</h3>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Lorem Ipsum 1</th>
+            <th>Lorem Ipsum 2</th>
+            <th>Lorem Ipsum 3</th>
+            <th>Lorem Ipsum 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>test lol hej</p>
+
+<h4>Another level four heading</h4>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h5>Another level five heading</h5>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h6>Another level six heading</h6>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Test | Aron Cedercrantz]]></title>
+  <link href="http://aron.cedercrantz.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://aron.cedercrantz.com/"/>
+  <updated>2011-11-04T05:33:31+01:00</updated>
+  <id>http://aron.cedercrantz.com/</id>
+  <author>
+    <name><![CDATA[Aron Cedercrantz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[That first test post, you know]]></title>
+    <link href="http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post/"/>
+    <updated>2011-11-04T04:04:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post</id>
+    <content type="html"><![CDATA[<p>This is/will be a post designed to test Octopress as well as creating a custom theme for it.</p>
+
+<p>Some short <a href="#">parahraph</a>, some short parahraph. Some short parahraph. <a href="">Lorem Ipsum has been the</a> industry's standard dummy text ever since <strong>the 1500s</strong>, when an <em>unknown printer</em> took a <mark>galley of type</mark> and scrambled it to make a type <code>specimen book</code>.</p>
+
+<blockquote><p>WWF's ultimate goal is to build a future where people live in harmony with nature.</p></blockquote>
+
+<p>Some short <a href="#">parahraph</a>, some short parahraph. Some short parahraph. <a href="">Lorem Ipsum has been the</a> industry's standard dummy text ever since <strong>the 1500s</strong>, when an <em>unknown printer</em> took a <mark>galley of type</mark> and scrambled it to make a type <code>specimen book</code>.</p>
+
+<p>``` css CSS can be awesome? http://example.com/css Example CSS Link
+.awesome-thingy {</p>
+
+<pre><code>-webkit-box-shadow: 0px 0px 20px #000000;
+-moz-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 20px #000000;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>``` ruby Ruby
+include Enumerable</p>
+
+<p>def initialize(rbconfig)
+@rbconfig = rbconfig</p>
+
+<p>def load_save
+begin</p>
+
+<pre><code>File.foreach(adad)
+self[k] = v.2
+end
+</code></pre>
+
+<p>rescue Errno::ENOENT
+setup $!.message + "\n#{File.basename}"
+end
+```</p>
+
+<p>``` objective-c Objective-C</p>
+
+<h1>import &lt;CDEvents/CDEvents.h></h1>
+
+<p>//...</p>
+
+<p>// This does cool stuff, or?
+NSArray <em>url  = [NSURL URLWithString:@"/path/to/directory"];
+NSArray </em>urls = [NSArray arrayWithObject:url];
+self.events   = [[CDEvents alloc]] initWithURLs:urls block:</p>
+
+<pre><code>                ^(CDEvents *watcher, CDEvent *event) {
+                    NSLog(
+                        @"URLWatcher: %@\nEvent: %@",
+                        watcher,
+                        event
+                    );
+                }];
+</code></pre>
+
+<p>ThisBeSomeFunc(NSString *str, char c);
+if (foo == YES) {</p>
+
+<pre><code>NSLog(@"%d", 42);
+</code></pre>
+
+<p>} else {</p>
+
+<pre><code>[obj callOnObject:withArg1 number:(42 - 1)];
+</code></pre>
+
+<p>}</p>
+
+<p>@implementation NSString (UUID)</p>
+
+<ul>
+<li>(NSString *)uuid
+{
+  cool();
+  id foo = nil;
+}</li>
+</ul>
+
+
+<p>@end</p>
+
+<p>static const unsigned char sURLValidCharacters[128] = {</p>
+
+<pre><code>[' '] = 0,
+['!'] = VALID | UNRESERVED | PATHVALID ,
+['"'] = 0,
+['#'] = 0,
+['$'] = VALID | PATHVALID ,
+</code></pre>
+
+<p>```</p>
+
+<h2>Oh this is worrysome</h2>
+
+<p><img src="/images/size-text.jpg" alt="Awesome test image from A List Apart" /></p>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<ol>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+</ol>
+
+
+<p><img src="/images/size-text.jpg" alt="Awesome test image from A List Apart" /></p>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<ul>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+<li>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+</ul>
+
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+<h2>Another level two heading</h2>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<dl>
+    <dt>Cascading Style Sheets</dt>
+    <dd>Style sheets are used to provide presentational suggestions for structured documents marked up in XML or HTML.</dd>
+    
+    <dt>Cascading Style Sheets 2</dt>
+    <dd>Style sheets are used to provide presentational suggestions for structured documents marked up in XML or HTML.</dd>
+    
+    <dt>Center</dt>
+    <dd>A point equidistant from all points on the surface of a sphere.</dd>
+</dl>
+
+
+
+
+<p>test lol hej</p>
+
+
+<h3>Another level three heading</h3>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Lorem Ipsum 1</th>
+            <th>Lorem Ipsum 2</th>
+            <th>Lorem Ipsum 3</th>
+            <th>Lorem Ipsum 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+        <tr>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+            <td>Lol</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>test lol hej</p>
+
+<h4>Another level four heading</h4>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h5>Another level five heading</h5>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h6>Another level six heading</h6>
+
+<p>Body of the article Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+]]></content>
+  </entry>
+  
+</feed>
