@@ -13,11 +13,11 @@ h1, h2, h3, h4 {
 }
 
 h1 { font-size: 2em; }
-h2 { font-size: 1.75em; }
-h3 { font-size: 1.375em; }
-h4 { font-size: 1.25em; }
-h5 { font-size: 1em; }
-h6 { font-size: .875em; }
+h2 { font-size: 1.675em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+h5 { font-size: .875em; }
+h6 { font-size: .75em; }
 
 body > header h1 {
 	font-weight: bold;
@@ -161,12 +161,13 @@ table {
 	font-size: 2em;
 }
 
-#content .blog-index article header {
-
-}
-
 article header {
 	padding-top: 0;
+	padding-bottom: 0;
+}
+
+article h2 {
+	background: #ffffff;
 }
 
 article header p.meta {
