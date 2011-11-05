@@ -1,16 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post/</loc>
+        <loc>http://aron.cedercrantz.com/2011/11/04/that-first-test-post/</loc>
         <lastmod>2011-11-04T05:27:09+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://aron.cedercrantz.com/404.html</loc>
+        <lastmod>2011-11-05T22:11:13+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/about/</loc>
-        <lastmod>2011-11-04T12:06:19+01:00</lastmod>
+        <lastmod>2011-11-06T00:44:50+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/blog/archives/</loc>
-        <lastmod>2011-11-04T05:27:09+01:00</lastmod>
+        <lastmod>2011-11-05T21:56:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/</loc>

@@ -4,7 +4,7 @@
   <title><![CDATA[Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2011-11-05T10:08:09+01:00</updated>
+  <updated>2011-11-06T00:46:09+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[That first test post, you know]]></title>
-    <link href="http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post/"/>
+    <link href="http://aron.cedercrantz.com/2011/11/04/that-first-test-post/"/>
     <updated>2011-11-04T04:04:00+01:00</updated>
-    <id>http://aron.cedercrantz.com/blog/2011/11/04/that-first-test-post</id>
+    <id>http://aron.cedercrantz.com/2011/11/04/that-first-test-post</id>
     <content type="html"><![CDATA[<p>This is/will be a post designed to test Octopress as well as creating a custom theme for it.</p>
 
 <p>Some short <a href="#">parahraph</a>, some short parahraph. Some short parahraph. <a href="">Lorem Ipsum has been the</a> industry&#8217;s standard dummy text ever since <strong>the 1500s</strong>, when an <em>unknown printer</em> took a <mark>galley of type</mark> and scrambled it to make a type <code>specimen book</code>.</p>
