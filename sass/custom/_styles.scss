@@ -52,9 +52,10 @@ body > nav li + li, body > nav li + li a {
 }
 
 body > nav form .search {
+	background-color: #fff;
 	color: #555;
 	box-shadow: none;
-	width: 192px;
+	width: 150px;
 	float: right;
 	font-size: 1.125em;
 }
@@ -161,7 +162,15 @@ table {
 }
 
 #content .blog-index article header {
-	padding-bottom: 1em;
+
+}
+
+article header {
+	padding-top: 0;
+}
+
+article header p.meta {
+	position: relative;
 }
 
 .profile-image {
