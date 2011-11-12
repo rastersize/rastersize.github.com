@@ -1,7 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-html { background: #ffffff; overflow-y: scroll; }
-body { font-size: 18px; }
+html {
+	background: #ffffff;
+	overflow-y: scroll;
+}
+body {
+	font-size: 18px;
+	font-family: HelveticaNeue-Light, HelveticaNeue, Helvetica, Arial, FreeSans, sans-serif;
+	width: 600px;
+}
 
 a { text-decoration: none; }
 a:hover, a:focus { text-decoration: underline; }
