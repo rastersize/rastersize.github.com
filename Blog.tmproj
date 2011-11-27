@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>sass/custom/_styles.scss</string>
+	<string>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,56 +21,26 @@
 	<integer>247</integer>
 	<key>metaData</key>
 	<dict>
-		<key>sass/custom/_colors.scss</key>
+		<key>sass/custom/_styles.scss</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>69</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>sass/custom/_fonts.scss</key>
+		<key>source/_includes/custom/footer.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-		</dict>
-		<key>sass/custom/_layout.scss</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
+				<integer>50</integer>
 				<key>line</key>
 				<integer>3</integer>
 			</dict>
@@ -79,28 +49,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>sass/custom/_styles.scss</key>
+		<key>source/_layouts/default.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>60</integer>
 				<key>line</key>
-				<integer>59</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>27</integer>
-		</dict>
-		<key>sass/partials/_navigation.scss</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>45</integer>
-				<key>line</key>
-				<integer>38</integer>
+				<integer>7</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
@@ -113,66 +69,24 @@
 				<key>column</key>
 				<integer>2</integer>
 				<key>line</key>
-				<integer>38</integer>
+				<integer>7</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>60</integer>
 				<key>line</key>
-				<integer>38</integer>
-			</dict>
-		</dict>
-		<key>source/_includes/custom/footer.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>53</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>source/_includes/navigation.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
 				<integer>7</integer>
-				<key>line</key>
-				<integer>13</integer>
 			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
-		<key>source/_layouts/post.html</key>
+		<key>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>34</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>source/about/index.markdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>69</integer>
-				<key>line</key>
-				<integer>8</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -182,19 +96,12 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
+		<string>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</string>
 		<string>sass/custom/_styles.scss</string>
-		<string>source/about/index.markdown</string>
-		<string>sass/custom/_layout.scss</string>
-		<string>sass/custom/_fonts.scss</string>
-		<string>sass/partials/_navigation.scss</string>
-		<string>source/_includes/navigation.html</string>
-		<string>sass/custom/_colors.scss</string>
-		<string>source/_includes/custom/footer.html</string>
-		<string>source/_layouts/post.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{-797, -262}, {734, 1152}}</string>
+	<string>{{485, 26}, {734, 1152}}</string>
 </dict>
 </plist>
