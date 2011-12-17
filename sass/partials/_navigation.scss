@@ -131,6 +131,7 @@ body > nav {
     }
   }
   ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
-  a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
-  a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
+  /* We do not want the ugly RSS/e-mail icons */
+  /*a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
+  a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }*/
 }
