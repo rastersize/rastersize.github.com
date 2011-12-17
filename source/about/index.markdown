@@ -30,8 +30,4 @@ My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and
 	<dt>GitHub:</dt>
 	<dd itemprop="url"><a href="https://github.com/rastersize">rastersize</a></dd>
 </dl>
-
-<p class="get-vcard">You can also get my <a href="{{ root_url }}/dowloads/aroncedercrantz.vcf">contact information as a vCard</a>.</p>
-
 </section>
-
