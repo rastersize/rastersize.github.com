@@ -39,7 +39,7 @@ pre {
 
 p code, li code {
 	border: none;
-	font-size: 90%;
+	font-size: 100%;
 }
 
 body nav {
@@ -105,6 +105,10 @@ mark {
 	font-weight: normal;
 	font-style: italic;
 	font-family: Georgia, "Times New Roman", Times, Serif;
+}
+
+span.meta {
+	color: #666;
 }
 
 /* Tables */
@@ -196,7 +200,11 @@ dt {
 }
 
 dt, dd, li {
-	padding-bottom: .75em;
+	padding-bottom: .25em;
+}
+
+ul {
+	list-style-type: circle;
 }
 
 .vcard dt {
