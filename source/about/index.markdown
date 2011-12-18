@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and Mac OS X. Currently I am studying interaction design (MSc) at Chalmers University of Technology in Gothenburg, Sweden.
+My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and Mac OS X. I am currently studying interaction design (MSc) at Chalmers University of Technology in Gothenburg, Sweden, and I love it!
 
 <section class="vcard" itemscope itemtype="http://data-vocabulary.org/Person">
 <div class="profile-image">
