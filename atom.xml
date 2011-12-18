@@ -4,7 +4,7 @@
   <title><![CDATA[Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2011-12-18T01:13:01+01:00</updated>
+  <updated>2011-12-18T01:34:21+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Got my Wacom Inkling today]]></title>
+    <link href="http://aron.cedercrantz.com/2011/12/17/got-my-wacom-inkling-today/"/>
+    <updated>2011-12-17T23:43:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/2011/12/17/got-my-wacom-inkling-today</id>
+    <content type="html"><![CDATA[<p>So far I must say I like the pen but the Mac OS X application needs to be completely redesigned. It looks and acts terrible. What else can you say when it asks you to draw on your screen to calibrate the pressure sensitivity. Copy-paste job from their more traditional tablets maybe?</p>
+
+<p><img src="http://aron.cedercrantz.com/images/Inkling_Sketch_Manager-Draw_here.png" title="width height title text" ></p>
+
+<p>No it is not pretty.</p>
+
+<p>I will try and post what I think of the pen when I have used it some more. Check back in a while!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Convert between XPC objects and Objective-C objects]]></title>
