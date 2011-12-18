@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Aron Cedercrantz]]></title>
-  <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Objective-C | Aron Cedercrantz]]></title>
+  <link href="http://aron.cedercrantz.com/categories/objective-c/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
   <updated>2011-12-18T01:03:47+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://aron.cedercrantz.com/2011/12/17/convert-between-xpc-objects-and-objective-c/"/>
     <updated>2011-12-17T22:24:00+01:00</updated>
     <id>http://aron.cedercrantz.com/2011/12/17/convert-between-xpc-objects-and-objective-c</id>
-    <content type="html"><![CDATA[<p><code>ObjectToXPC</code> is a small open source project I hacked together today. It simplifies the conversion of a few Objective-C classes to and from the &#8220;new” XPC objects. It also comes with unit tests for some scenarios, woop woop!</p>
+    <content type="html"><![CDATA[<p><code>ObjectToXPC</code> is a small open source project I hacked together today. It simplifies the conversion of a few Objective-C classes to and from the "new” XPC objects. It also comes with unit tests for some scenarios, woop woop!</p>
 
 <p>What is XPC then? XPC is new technology from Apple introduced in Mac OS X 10.7 (not available in iOS). It allows you to separate your application in different logical parts. Each which can have different privileges under the new sandboxed environment. Thus it can help make your application more stable and secure.</p>
 
@@ -67,13 +67,13 @@
 
 <h2>License</h2>
 
-<p>The project is licensed under the &#8220;Simplified BSD license&#8221; (2-clause), for the exact terms please see the <a href="https://github.com/rastersize/ObjectToXPC/blob/master/LICENSE">LICENSE file</a> in the repository.</p>
+<p>The project is licensed under the "Simplified BSD license" (2-clause), for the exact terms please see the <a href="https://github.com/rastersize/ObjectToXPC/blob/master/LICENSE">LICENSE file</a> in the repository.</p>
 
 <h2>Bugs and Other Reports</h2>
 
 <p>Please file any bug reports in the <a href="https://github.com/rastersize/ObjectToXPC/issues">issue tracker for ObjectToXPC</a> on GitHub or event better fix it and then send me a pull request, also on GitHub.</p>
 
-<p>Have you created an application which use any of my <a href="https://github.com/rastersize">open source projects</a> (including ObjectToXPC)? Please tell me about it. Not because you have to but because I would love to know! My <a href="http://aron.cedercrantz.com/about">contact details</a> are available on <a href="http://aron.cedercrantz.com/about">my about page</a>.</p>
+<p>Have you created an application which use any of my <a href="https://github.com/rastersize">open source projects</a> (including ObjectToXPC)? Please tell me about it. Not because you have to but because I would love to know! My <a href="/about">contact details</a> are available on <a href="/about">my about page</a>.</p>
 ]]></content>
   </entry>
   

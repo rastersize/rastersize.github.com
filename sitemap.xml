@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://aron.cedercrantz.com/2011/11/04/that-first-test-post/</loc>
-        <lastmod>2011-12-17T22:21:53+01:00</lastmod>
+        <loc>
+            http://aron.cedercrantz.com/2011/12/17/convert-between-xpc-objects-and-objective-c/
+        </loc>
+        <lastmod>2011-12-18T01:02:02+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/404.html</loc>
@@ -10,14 +12,14 @@
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/about/</loc>
-        <lastmod>2011-12-17T22:21:53+01:00</lastmod>
+        <lastmod>2011-12-18T00:58:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/blog/archives/</loc>
-        <lastmod>2011-12-17T22:21:53+01:00</lastmod>
+        <lastmod>2011-12-18T01:02:02+01:00</lastmod>
     </url>
     <url>
         <loc>http://aron.cedercrantz.com/</loc>
-        <lastmod>2011-12-17T22:21:53+01:00</lastmod>
+        <lastmod>2011-12-18T01:02:02+01:00</lastmod>
     </url>
 </urlset>
