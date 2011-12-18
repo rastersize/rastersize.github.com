@@ -14,4 +14,4 @@ So far I must say I like the pen but the Mac OS X application needs to be comple
 
 No it is not pretty.
 
-I will try and post what I think of the pen when I have used it some more. Check back in a while!
+I will try and post what I think of the pen when I have used it some more. Check this space for a new blog post on the subject in the future!
