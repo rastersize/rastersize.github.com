@@ -11,15 +11,13 @@ body > nav {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
     .search {
-      padding: .3em .5em 0;
+      padding: .3em .5em .3em;
       font-size: .85em;
       @extend .sans;
       line-height: 1.1em;
       width: 95%;
       @include border-radius(.5em);
       @include background-clip(padding-box);
-      @include box-shadow(lighten($nav-bg, 2) 0 1px);
-      background-color: lighten($nav-bg, 15);
       border: 1px solid $nav-border;
       color: #888;
       &:focus {
@@ -42,7 +40,7 @@ body > nav {
       @include horizontal-list(0);
       float: left;
       display: block;
-      padding-top: .15em;
+      padding-top: .3em;
     }
     ul.subscription {
       margin-left: .8em;
@@ -55,11 +53,10 @@ body > nav {
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       @extend .sans;
-      text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
       font-size: 1.1em;
-      padding: .1em 0;
+      padding: 0;
       line-height: 1.5em;
     }
     li + li {
@@ -90,7 +87,7 @@ body > nav {
   }
   @media only screen and (min-width: 992px) {
     form {
-      width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 + 10px;
+      width: $pad-wide - $sidebar-pad-wide*2 + 10px;
     }
     ul[data-subscription$=email] + form {
       width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 58px;
@@ -99,8 +96,6 @@ body > nav {
 }
 .no-placeholder {
   body > nav .search {
-    background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;
-    text-indent: 1.3em;
   }
 }
 @mixin mask-subscription-nav($feed: 'rss.png'){
@@ -131,7 +126,4 @@ body > nav {
     }
   }
   ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
-  /* We do not want the ugly RSS/e-mail icons */
-  /*a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
-  a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }*/
 }

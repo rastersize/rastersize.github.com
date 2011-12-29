@@ -1,10 +1,10 @@
 $blockquote: $type-border !default;
-$sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+$sans: 'HelveticaNeue-Light','HelveticaNeue',Helvetica,Arial,sans-serif !default;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
-$heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+$heading-font-family: 'HelveticaNeue-CondensedBold','HelveticaNeue',Helvetica,Arial,sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
-$header-subtitle-font-family: $heading-font-family !default;
+$header-subtitle-font-family: $sans !default;
 
 // Fonts
 .heading {
@@ -15,7 +15,7 @@ $header-subtitle-font-family: $heading-font-family !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   @extend .heading;
   font-family: $header-title-font-family;
   font-weight: normal;
@@ -27,17 +27,19 @@ body > header h2 {
 }
 
 body {
+  font-size: 1em;
   line-height: 1.5em;
   color: $text-color;
-  @extend .serif;
+  text-shadow: #fff 0 1px 0;
+  @extend .sans;
 }
 h1 {
   font-size: 2.2em;
   line-height: 1.2em;
+  text-shadow: #fff 0 2px 0;
 }
 
-@media only screen and (min-width: 992px) {
-  body { font-size: 1.15em; }
+@media only screen and (min-width: 768px) {
   h1 { font-size: 2.6em; line-height: 1.2em; }
 }
 
@@ -64,8 +66,8 @@ h6, section h5, section section h4, section section section h3 {
 }
 p, blockquote, ul, ol { margin-bottom: 1.5em; }
 
-ul { list-style-type: disc;
-  ul { list-style-type: circle; margin-bottom: 0px;
+ul { list-style-type: circle;
+  ul { list-style-type: disc; margin-bottom: 0px;
     ul { list-style-type: square; margin-bottom: 0px; }}}
 
 ol { list-style-type: decimal;
@@ -78,6 +80,12 @@ strong { font-weight: bold; }
 
 em { font-style: italic; }
 
+mark {
+  color: darken($text-color-light, 15);
+  background-color: transparent;
+  font-weight: normal;
+  font-style: italic;
+  font-family: $serif; }
 sup, sub { font-size: 0.8em; position: relative;  display: inline-block; }
 sup { top: -.5em; }
 sub { bottom: -.5em; }
