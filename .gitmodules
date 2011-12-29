@@ -1,0 +1,3 @@
+[submodule ".themes/mine"]
+	path = .themes/mine
+	url = git://github.com/rastersize/BlogTheme.git
