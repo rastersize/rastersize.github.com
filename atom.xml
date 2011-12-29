@@ -4,7 +4,7 @@
   <title><![CDATA[Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2011-12-29T19:34:21+01:00</updated>
+  <updated>2011-12-29T20:21:33+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[New blog theme]]></title>
+    <link href="http://aron.cedercrantz.com/2011/12/29/new-blog-theme/"/>
+    <updated>2011-12-29T19:35:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/2011/12/29/new-blog-theme</id>
+    <content type="html"><![CDATA[<p>I have redesigned this site again as I was not happy with the old look =). This time I took the liberty of creating a custom theme instead of just dumping an extreme amount of CSS rules into the <code>styles.css</code>. The custom theme approach probably required more effort than just hacking the classic theme but I am hoping it will prove easier to maintain and update.</p>
+
+<p>Stuff left to fix are the code blocks which currently look quite awful, as well as the tables. That will have to wait though.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Got my Wacom Inkling today]]></title>
