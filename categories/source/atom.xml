@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Source | Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/categories/source/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2011-12-29T20:48:30+01:00</updated>
+  <updated>2011-12-30T01:54:14+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -71,7 +71,7 @@
 
 <h2>Bugs and Other Reports</h2>
 
-<p>Please file any bug reports in the <a href="https://github.com/rastersize/ObjectToXPC/issues">issue tracker for ObjectToXPC</a> on GitHub or event better fix it and then send me a pull request, also on GitHub.</p>
+<p>Please file any bug reports in the <a href="https://github.com/rastersize/ObjectToXPC/issues">issue tracker for ObjectToXPC</a> on GitHub or even better fix it and then send me a pull request, also via GitHub.</p>
 
 <p>Have you created an application which use any of my <a href="https://github.com/rastersize">open source projects</a> (including ObjectToXPC)? Please tell me about it. Not because you have to but because I would love to know! My <a href="/about">contact details</a> are available on <a href="/about">my about page</a>.</p>
 ]]></content>
