@@ -53,7 +53,7 @@ To use it you can either link with library or copy the files manually. You need 
 The project is licensed under the "Simplified BSD license" (2-clause), for the exact terms please see the [LICENSE file](https://github.com/rastersize/ObjectToXPC/blob/master/LICENSE) in the repository.
 
 ## Bugs and Other Reports ##
-Please file any bug reports in the [issue tracker for ObjectToXPC](https://github.com/rastersize/ObjectToXPC/issues) on GitHub or event better fix it and then send me a pull request, also on GitHub.
+Please file any bug reports in the [issue tracker for ObjectToXPC](https://github.com/rastersize/ObjectToXPC/issues) on GitHub or even better fix it and then send me a pull request, also via GitHub.
 
 Have you created an application which use any of my [open source projects](https://github.com/rastersize) (including ObjectToXPC)? Please tell me about it. Not because you have to but because I would love to know! My [contact details](/about) are available on [my about page](/about). 
 
