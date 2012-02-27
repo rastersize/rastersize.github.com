@@ -21,9 +21,6 @@ My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and
 	<dt>Email:</dt>
 	<dd>aron@[my last name].se</dd>
 	
-	<dt>iMessage:</dt>
-	<dd>aron@[my last name].se</dd>
-	
 	<dt>Twitter:</dt>
 	<dd itemprop="url"><a href="https://twitter.com/rastersize">@rastersize</a></dd>
 	
