@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,20 +19,6 @@
 	<integer>247</integer>
 	<key>metaData</key>
 	<dict>
-		<key>sass/custom/_styles.scss</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>source/_includes/custom/footer.html</key>
 		<dict>
 			<key>caret</key>
@@ -79,29 +63,10 @@
 				<integer>7</integer>
 			</dict>
 		</dict>
-		<key>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>16</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>source/_posts/2011-11-06-installing-gitlab-on-freebsd.markdown</string>
-		<string>sass/custom/_styles.scss</string>
-	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{485, 26}, {734, 1152}}</string>
+	<string>{{-1055, -148}, {734, 1152}}</string>
 </dict>
 </plist>

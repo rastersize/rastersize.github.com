@@ -28,6 +28,12 @@ email:
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
 permalink: /:year/:month/:day/:title/
+permalink_label: "&infin;"
+permalink_label_feed: "&infin; Permalink"
+linklog_marker: "&rarr;"
+linklog_marker_position: after
+linklog_marker_position_feed: before
+standard_post_marker:
 source: source
 destination: public
 plugins: plugins
