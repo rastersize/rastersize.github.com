@@ -13,3 +13,4 @@ I have redesigned this site again as I were not happy with the old look =). This
 
 Stuff left to fix are the code blocks which currently look quite awful, as well as the tables. That will have to wait though.
 
+**Update:** Slightly updated today (2012-08-13); whiter, more space, new header and red instead of blue.
