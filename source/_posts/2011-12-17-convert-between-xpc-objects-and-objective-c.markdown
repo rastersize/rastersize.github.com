@@ -47,7 +47,7 @@ The following types of XPC Objects can be converted to and from the previously m
 
 
 ## Get the Code ##
-You can find the project and the glory source code on the [GitHub project page](https://github.com/rastersize/ObjectToXPC). Feel free to fork, add and fix stuff which I have missed or forgotten. Feel free to send me a pull request, I will happily intergrate it (if it looks OK)! The Xcode project file currently contains one dynamic library target and one unit test target.
+You can find the project and the glorious source code on the [GitHub project page](https://github.com/rastersize/ObjectToXPC). Feel free to fork, add and fix stuff which I have missed or forgotten. Feel free to send me a pull request, I will happily intergrate it (if it looks OK)! The Xcode project file currently contains one dynamic library target and one unit test target.
 
 To use it you can either link with the library or copy the source files manually into you project. You need all the `.h` and `.m` files found in the `Source` directory in case you opt for the latter case. As the XPC API was introduced in OS X 10.7 the project requires OS X 10.7 or newer, big suprise there. This is required both for building the project (with Xcode 4.2+ and ARC turned on) as well as running it. `ObjectToXPC` will not build for, or run on, the iOS platform as XPC Services does not exist (publically) on it.
 
