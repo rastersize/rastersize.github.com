@@ -4,7 +4,7 @@
   <title><![CDATA[Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2012-08-13T15:46:42+02:00</updated>
+  <updated>2012-08-13T15:52:12+02:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -89,7 +89,7 @@
 
 <h2>Get the Code</h2>
 
-<p>You can find the project and the glory source code on the <a href="https://github.com/rastersize/ObjectToXPC">GitHub project page</a>. Feel free to fork, add and fix stuff which I have missed or forgotten. Feel free to send me a pull request, I will happily intergrate it (if it looks OK)! The Xcode project file currently contains one dynamic library target and one unit test target.</p>
+<p>You can find the project and the glorious source code on the <a href="https://github.com/rastersize/ObjectToXPC">GitHub project page</a>. Feel free to fork, add and fix stuff which I have missed or forgotten. Feel free to send me a pull request, I will happily intergrate it (if it looks OK)! The Xcode project file currently contains one dynamic library target and one unit test target.</p>
 
 <p>To use it you can either link with the library or copy the source files manually into you project. You need all the <code>.h</code> and <code>.m</code> files found in the <code>Source</code> directory in case you opt for the latter case. As the XPC API was introduced in OS X 10.7 the project requires OS X 10.7 or newer, big suprise there. This is required both for building the project (with Xcode 4.2+ and ARC turned on) as well as running it. <code>ObjectToXPC</code> will not build for, or run on, the iOS platform as XPC Services does not exist (publically) on it.</p>
 
