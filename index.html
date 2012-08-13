@@ -176,15 +176,17 @@
   </header>
 
 
-  <div class="entry-content"><p><code>ObjectToXPC</code> is a small open source project I hacked together today. It simplifies the conversion of a few Objective-C classes to and from the &#8220;new” XPC objects. It also comes with unit tests for some scenarios, woop woop!</p>
+  <div class="entry-content"><p><code>ObjectToXPC</code> is a small open source project I hacked together today. It simplifies the conversion between a few Objective-C classes and the &#8220;new” <em>XPC</em> objects. The library also comes with unit tests which covers quite a few scenarios, woop woop!</p>
 
-<p>What is XPC then? XPC is new technology from Apple introduced in Mac OS X 10.7 (not available in iOS). It allows you to separate your application in different logical parts. Each which can have different privileges under the new sandboxed environment. Thus it can help make your application more stable and secure.</p>
+<p>So that might be cool but what is <em>XPC</em>? XPC is new technology from Apple introduced in Mac OS X 10.7 (not publically available in iOS). It allows you to separate your application in different logical parts – services. These services all run as individual processes. Furthermore, each logical part can have a unique set of sandbox privileges. For example you can have one XPC service for network based communication and another for creating a ZIP-file of some downloaded data. Thus the technology can help yoy make your application more stable and secure.</p>
 
 <h2>Supported Types</h2>
 
+<p><code>ObjectToXPC</code>supports a few basic <em>Objective-C</em> classes and most <em>XPC Object</em> types.</p>
+
 <h3>Objective-C</h3>
 
-<p>Basically it will allow you to convert instances of the following Objective-C classes;</p>
+<p><code>ObjectToXPC</code>will allow you to convert instances of the following Objective-C classes to and from XPC Objects;</p>
 
 <ul>
 <li><code>NSArray</code> <span class="meta"><em>(where the elements are one of the supported)</em></span>,</li>
@@ -197,11 +199,11 @@
 </ul>
 
 
-<p>If you were to try and convert an <code>NSArray</code> or a <code>NSDictionary</code> instance which contains an object which we can not convert (<em>i.e.</em> if the method <code>-XPCObject</code> is not implemented) the project will halt you via an assertion. But only if the <code>DEBUG</code> macro has been set. Otherwise an error will only be logged to the console via <code>NSLog()</code> and program execution will continue with the object being skipped.</p>
+<p>If you try to convert an <code>NSArray</code> or a <code>NSDictionary</code> instance which contains an object which we can not convert (<em>i.e.</em> if the method <code>-XPCObject</code> is not implemented) the project will halt via an assertion. But only if the <code>DEBUG</code> macro has been set. Otherwise an error will only be logged to the console via <code>NSLog()</code> and program execution will continue with the object being skipped.</p>
 
 <h3>XPC Objects</h3>
 
-<p>The following types of XPC objects can be used to initiate instances of the previously mentioned Objective-C classes (via <code>-initWithXPCObject:</code>);</p>
+<p>The following types of XPC Objects can be converted to and from the previously mentioned Objective-C classes (via for example <code>-initWithXPCObject:</code>);</p>
 
 <ul>
 <li><code>XPC_TYPE_ARRAY</code>,</li>
@@ -219,9 +221,9 @@
 
 <h2>Get the Code</h2>
 
-<p>Find the project and the glory source code on the <a href="https://github.com/rastersize/ObjectToXPC">GitHub project page</a>. Feel free to fork, add and fix stuff which I have missed or forgotten. Then please send me a pull request so that I can integrate it! The Xcode project file currently contains one dynamic library target and one unit test target.</p>
+<p>You can find the project and the glory source code on the <a href="https://github.com/rastersize/ObjectToXPC">GitHub project page</a>. Feel free to fork, add and fix stuff which I have missed or forgotten. Feel free to send me a pull request, I will happily intergrate it (if it looks OK)! The Xcode project file currently contains one dynamic library target and one unit test target.</p>
 
-<p>To use it you can either link with library or copy the files manually. You need all the <code>.h</code> and <code>.m</code> files in the <code>Source</code> directory in the latter case. As the XPC API was introduced in Mac OS X 10.7 the project require OS X 10.7 and newer. Both for building (with Xcode 4.2+ with ARC turned on) and running. ObjectToXPC will not build for or run on the iOS platform as XPC Services does not exist on it.</p>
+<p>To use it you can either link with the library or copy the source files manually into you project. You need all the <code>.h</code> and <code>.m</code> files found in the <code>Source</code> directory in case you opt for the latter case. As the XPC API was introduced in OS X 10.7 the project requires OS X 10.7 or newer, big suprise there. This is required both for building the project (with Xcode 4.2+ and ARC turned on) as well as running it. <code>ObjectToXPC</code> will not build for, or run on, the iOS platform as XPC Services does not exist (publically) on it.</p>
 
 <h2>License</h2>
 
@@ -229,7 +231,7 @@
 
 <h2>Bugs and Other Reports</h2>
 
-<p>Please file any bug reports in the <a href="https://github.com/rastersize/ObjectToXPC/issues">issue tracker for ObjectToXPC</a> on GitHub or even better fix it and then send me a pull request, also via GitHub.</p>
+<p>Please file any bug reports in the <a href="https://github.com/rastersize/ObjectToXPC/issues">issue tracker for ObjectToXPC</a> on GitHub or even better fix it and then send me a pull request, also via <a href="https://github.com/">GitHub</a>.</p>
 
 <p>Have you created an application which use any of my <a href="https://github.com/rastersize">open source projects</a> (including ObjectToXPC)? Please tell me about it. Not because you have to but because I would love to know! My <a href="/about">contact details</a> are available on <a href="/about">my about page</a>.</p>
 </div>
