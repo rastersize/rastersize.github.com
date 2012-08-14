@@ -8,9 +8,9 @@ categories:
 - Design
 - User Interface
 ---
-So far I must say I like the pen but the Mac OS X application needs to be completely redesigned. It looks and acts terrible. What else can you say when it asks you to draw on your screen to calibrate the pressure sensitivity. Copy-paste job from their more traditional tablets maybe?
+{% img right /images/Inkling_Sketch_Manager-Draw_here.png  325 313 'Inkling Sketch Manager Please Draw on Your Screen' %}
 
-{% img /images/Inkling_Sketch_Manager-Draw_here.png  width height title text %}
+So far I must say I like the pen but the Mac OS X application needs to be completely redesigned. It looks and acts terrible. What else can you say when it asks you to draw on your screen to calibrate the pressure sensitivity. Copy-paste job from their more traditional tablets maybe?
 
 No it is not pretty.
 
