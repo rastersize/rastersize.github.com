@@ -2,7 +2,7 @@
 layout: post
 title: "The Icons of CoRD"
 date: 2012-08-14 03:30
-published: false
+published: true
 comments: false
 categories: 
 - Design
