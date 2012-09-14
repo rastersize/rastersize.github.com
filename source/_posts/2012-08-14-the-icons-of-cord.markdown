@@ -52,6 +52,6 @@ All the icons and graphics are licensed under the [_Attribution-NonCommercial-Sh
 
 {% footnotes %}
 	{% fn I strongly recommend viewing this post on a retina enabled device, such as the MacBook Pro Retina or the 3rd generation iPad. %}
-	{% fn No need to mention to eight month gap between posts :) %}
+	{% fn No need to mention the eight month gap between this and the posts before it :) %}
 {% endfootnotes %}
  
