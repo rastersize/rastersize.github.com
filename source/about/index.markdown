@@ -19,6 +19,8 @@ My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and
 	<dd>aron@[my last name].se</dd>
 	<dt>Twitter:</dt>
 	<dd itemprop="url"><a href="https://twitter.com/rastersize">@rastersize</a></dd>
+	<dt>App.net:</dt>
+	<dd itemprop="url"><a href="https://alpha.app.net/rastersize">@rastersize</a></dd>
 	<dt>GitHub:</dt>
 	<dd itemprop="url"><a href="https://github.com/rastersize">rastersize</a></dd>
 </dl>
