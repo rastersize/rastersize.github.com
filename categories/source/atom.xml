@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Source | Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/categories/source/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2012-11-07T19:42:03+01:00</updated>
+  <updated>2012-11-21T21:25:08+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CDEvents updated]]></title>
+    <link href="http://aron.cedercrantz.com/2012/11/21/cdevents-updated/"/>
+    <updated>2012-11-21T21:13:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/2012/11/21/cdevents-updated</id>
+    <content type="html"><![CDATA[<p>So my “old” framework <a href="http://rastersize.github.com/CDEvents/"><strong>CDEvents</strong></a> turned two and a half less than a month ago 🎉 and today it got updated to a whooping version 1.2.0. This brings the power of ARC and blocks (which have been in the <code>develop</code> branch for quite some time). It also raises the OS X deployment target to 10.6 and drops support for the now deprecated garbage collection.</p>
+
+<p>Thanks to <a href="https://github.com/JustSid">JustSid</a>, <a href="https://github.com/tonyxiao">tonyxiao</a> and <a href="https://github.com/dwlnetnl">dwlnetnl</a> for their contributions and helping to squash some bugs as well as improve the framework.</p>
+
+<p>You can get it from its GitHub page, <a href="https://github.com/rastersize/CDEvents">rastersize/CDEvents</a>, and the <a href="http://rastersize.github.com/CDEvents/docs/api/">API documentation</a> has been updated.</p>
+
+<p>(The project is still <a href="https://github.com/rastersize/CDEvents/blob/develop/LICENSE">licensed</a> under the MIT license.)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Convert between XPC objects and Objective-C objects]]></title>
