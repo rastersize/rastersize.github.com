@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Source | Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/categories/source/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2012-11-21T21:25:08+01:00</updated>
+  <updated>2012-11-22T16:25:07+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CDMedallionView]]></title>
+    <link href="http://aron.cedercrantz.com/2012/11/22/cdmedallionview/"/>
+    <updated>2012-11-22T16:08:00+01:00</updated>
+    <id>http://aron.cedercrantz.com/2012/11/22/cdmedallionview</id>
+    <content type="html"><![CDATA[<p>I “released” a small OS X component today called <a href="https://github.com/rastersize/CDMedallionView">CDMedallionView</a>. It is a subclass of <code>NSImageView</code> which has been styled to look like the image view on the login screen of OS X Lion (and newer).</p>
+
+<p><img src="http://cloud.github.com/downloads/rastersize/CDMedallionView/CDMedallionView@2x.png" alt="Screenshot of the test app showing the medallion view in three different sizes" width="408px" height="336px" class="center no-border"></p>
+
+<p>It should work on OS X 10.6 and up and it supports retina screens. To build the source you need ARC (must at least be enabled for the <code>CDMedallionView.m</code> file).</p>
+
+<p>You can get it from the <a href="https://github.com/rastersize/CDMedallionView">GitHub project rastersize/CDMedallionView</a> where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the MIT license. See <a href="https://github.com/rastersize/CDMedallionView/blob/master/LICENSE">the license file</a> for more information.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CDEvents updated]]></title>

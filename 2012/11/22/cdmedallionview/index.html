@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>CDEvents updated - Aron Cedercrantz</title>
+  <title>CDMedallionView - Aron Cedercrantz</title>
   <meta name="author" content="Aron Cedercrantz">
 
   
-  <meta name="description" content="So my “old” framework CDEvents turned two and a half less than a month ago 🎉 and today it got updated to a whooping version 1.2.0. This brings the &hellip;">
+  <meta name="description" content="I “released” a small OS X component today called CDMedallionView. It is a subclass of NSImageView which has been styled to look like the image view &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://aron.cedercrantz.com/2012/11/21/cdevents-updated">
+  <link rel="canonical" href="http://aron.cedercrantz.com/2012/11/22/cdmedallionview">
   <link href="/favicon.ico" rel="icon">
   
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">CDEvents Updated</h1>
+      <h1 class="entry-title">CDMedallionView</h1>
     
     
       <p class="meta">
@@ -86,20 +86,20 @@
   
 
 
-<time datetime="2012-11-21T21:13:00+01:00" pubdate data-updated="true">Nov 21<span>st</span>, 2012</time>
+<time datetime="2012-11-22T16:08:00+01:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>So my “old” framework <a href="http://rastersize.github.com/CDEvents/"><strong>CDEvents</strong></a> turned two and a half less than a month ago 🎉 and today it got updated to a whooping version 1.2.0. This brings the power of ARC and blocks (which have been in the <code>develop</code> branch for quite some time). It also raises the OS X deployment target to 10.6 and drops support for the now deprecated garbage collection.</p>
+<div class="entry-content"><p>I “released” a small OS X component today called <a href="https://github.com/rastersize/CDMedallionView">CDMedallionView</a>. It is a subclass of <code>NSImageView</code> which has been styled to look like the image view on the login screen of OS X Lion (and newer).</p>
 
-<p>Thanks to <a href="https://github.com/JustSid">JustSid</a>, <a href="https://github.com/tonyxiao">tonyxiao</a> and <a href="https://github.com/dwlnetnl">dwlnetnl</a> for their contributions and helping to squash some bugs as well as improve the framework.</p>
+<p><img src="http://cloud.github.com/downloads/rastersize/CDMedallionView/CDMedallionView@2x.png" alt="Screenshot of the test app showing the medallion view in three different sizes" width="408px" height="336px" class="center no-border"></p>
 
-<p>You can get it from its GitHub page, <a href="https://github.com/rastersize/CDEvents">rastersize/CDEvents</a>, and the <a href="http://rastersize.github.com/CDEvents/docs/api/">API documentation</a> has been updated.</p>
+<p>It should work on OS X 10.6 and up and it supports retina screens. To build the source you need ARC (must at least be enabled for the <code>CDMedallionView.m</code> file).</p>
 
-<p>(The project is still <a href="https://github.com/rastersize/CDEvents/blob/develop/LICENSE">licensed</a> under the MIT license.)</p>
+<p>You can get it from the <a href="https://github.com/rastersize/CDMedallionView">GitHub project rastersize/CDMedallionView</a> where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the MIT license. See <a href="https://github.com/rastersize/CDMedallionView/blob/master/LICENSE">the license file</a> for more information.</p>
 </div>
 
 
@@ -122,12 +122,12 @@
   
 
 
-<time datetime="2012-11-21T21:13:00+01:00" pubdate data-updated="true">Nov 21<span>st</span>, 2012</time>
+<time datetime="2012-11-22T16:08:00+01:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/categories/development/'>Development</a>, <a class='category' href='/categories/fsevents/'>FSEvents</a>, <a class='category' href='/categories/objective-c/'>Objective-C</a>, <a class='category' href='/categories/source/'>Source</a>
+    <a class='category' href='/categories/development/'>Development</a>, <a class='category' href='/categories/os-x/'>OS X</a>, <a class='category' href='/categories/objective-c/'>Objective-C</a>, <a class='category' href='/categories/source/'>Source</a>, <a class='category' href='/categories/view/'>View</a>
   
 </span>
 
@@ -143,10 +143,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2012/08/14/the-icons-of-cord/" title="Previous Post: The Icons of CoRD">&laquo; The Icons of CoRD</a>
+        <a class="basic-alignment left" href="/2012/11/21/cdevents-updated/" title="Previous Post: CDEvents updated">&laquo; CDEvents updated</a>
       
-      
-        <a class="basic-alignment right" href="/2012/11/22/cdmedallionview/" title="next Post: CDMedallionView">CDMedallionView &raquo;</a>
       
     </p>
   </footer>
