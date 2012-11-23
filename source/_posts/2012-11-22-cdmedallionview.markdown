@@ -17,7 +17,7 @@ I “released” a small OS X component today called [CDMedallionView](https://g
 
 It should work on OS X 10.6 and up and it supports retina screens. To build the source you need ARC (must at least be enabled for the `CDMedallionView.m` file). 
 
-## Using the class
+## Using the Class
 As `CDMedallionView` is a subclass of `NSImageView` just you it as you would use an `NSImageView`. For example in code;
 
     CDMedallionView *avatarImageView = [[CDMedallionView] alloc] init];
@@ -29,5 +29,5 @@ As `CDMedallionView` is a subclass of `NSImageView` just you it as you would use
     
 The class can also used via interface builder, drag out an `NSImageView` and using the “Identity” inspector (⌘+⌥+3) set the class to `CDMedallionView`. You can then configure it as you please using the other inspector panels. To change the shine, shadow and border width and color create an outlet to the view and then set those in code.
 
-## Getting the source
+## Getting the Code
 You can get it from the [GitHub project rastersize/CDMedallionView](https://github.com/rastersize/CDMedallionView) where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the MIT license. See [the license file](https://github.com/rastersize/CDMedallionView/blob/master/LICENSE) for more information.
