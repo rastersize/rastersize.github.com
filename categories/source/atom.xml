@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Source | Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/categories/source/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2012-11-23T22:26:14+01:00</updated>
+  <updated>2012-11-23T22:28:46+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -24,7 +24,7 @@
 
 <p>It should work on OS X 10.6 and up and it supports retina screens. To build the source you need ARC (must at least be enabled for the <code>CDMedallionView.m</code> file).</p>
 
-<h2>Using the class</h2>
+<h2>Using the Class</h2>
 
 <p>As <code>CDMedallionView</code> is a subclass of <code>NSImageView</code> just you it as you would use an <code>NSImageView</code>. For example in code;</p>
 
@@ -38,7 +38,7 @@ avatarImageView.borderWidth = 2.f; // Default is 4.0.
 
 <p>The class can also used via interface builder, drag out an <code>NSImageView</code> and using the “Identity” inspector (⌘+⌥+3) set the class to <code>CDMedallionView</code>. You can then configure it as you please using the other inspector panels. To change the shine, shadow and border width and color create an outlet to the view and then set those in code.</p>
 
-<h2>Getting the source</h2>
+<h2>Getting the Code</h2>
 
 <p>You can get it from the <a href="https://github.com/rastersize/CDMedallionView">GitHub project rastersize/CDMedallionView</a> where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the MIT license. See <a href="https://github.com/rastersize/CDMedallionView/blob/master/LICENSE">the license file</a> for more information.</p>
 ]]></content>
