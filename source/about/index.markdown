@@ -22,6 +22,6 @@ My name is Aron Cedercrantz, I develop for iOS (iPhone, iPad and iPod Touch) and
 	<dt>App.net:</dt>
 	<dd itemprop="url"><a href="https://alpha.app.net/rastersize">@rastersize</a></dd>
 	<dt>GitHub:</dt>
-	<dd itemprop="url"><a href="https://github.com/rastersize">rastersize</a></dd>
+	<dd itemprop="url"><a href="https://github.com/rastersize">@rastersize</a></dd>
 </dl>
 </section>
