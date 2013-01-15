@@ -1,3 +1,13 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 @import "_footnote";
+
+.profile-image {
+	background-image: url(/images/aron_cedercrantz.png);
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (-o-min-device-pixel-ratio: 3/2),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5) {
+	.profile-image { background-image: url(/images/aron_cedercrantz@2x.png); }
+}
