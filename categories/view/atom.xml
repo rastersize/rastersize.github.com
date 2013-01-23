@@ -4,7 +4,7 @@
   <title><![CDATA[Category: View | Aron Cedercrantz]]></title>
   <link href="http://aron.cedercrantz.com/categories/view/atom.xml" rel="self"/>
   <link href="http://aron.cedercrantz.com/"/>
-  <updated>2013-01-15T02:58:56+01:00</updated>
+  <updated>2013-01-24T00:02:50+01:00</updated>
   <id>http://aron.cedercrantz.com/</id>
   <author>
     <name><![CDATA[Aron Cedercrantz]]></name>
@@ -18,7 +18,7 @@
     <link href="http://aron.cedercrantz.com/2012/11/22/cdmedallionview/"/>
     <updated>2012-11-22T16:08:00+01:00</updated>
     <id>http://aron.cedercrantz.com/2012/11/22/cdmedallionview</id>
-    <content type="html"><![CDATA[<p>I “released” a small OS X component today called <a href="https://github.com/rastersize/CDMedallionView">CDMedallionView</a>. It is a subclass of <code>NSImageView</code> which has been styled to look like the image view on the login screen of OS X Lion (and newer).</p>
+    <content type="html"><![CDATA[<p>Today I “released” a small OS X user interface component called <a href="https://github.com/rastersize/CDMedallionView">CDMedallionView</a>. It is a subclass of <code>NSImageView</code> which has been styled to look like the image view on the login screen of OS X Lion and Mountain Lion</p>
 
 <p><img src="http://cloud.github.com/downloads/rastersize/CDMedallionView/CDMedallionView@2x.png" alt="Screenshot of the test app showing the medallion view in three different sizes" width="408px" height="336px" class="center no-border"></p>
 
@@ -26,21 +26,21 @@
 
 <h2>Using the Class</h2>
 
-<p>As <code>CDMedallionView</code> is a subclass of <code>NSImageView</code> just you it as you would use an <code>NSImageView</code>. For example in code;</p>
+<p>As <code>CDMedallionView</code> is a subclass of <code>NSImageView</code> you can use it as you would use an <code>NSImageView</code> instance. For example in code;</p>
 
-<pre><code>CDMedallionView *avatarImageView = [[CDMedallionView] alloc] init];
-avatarImageView.frame = NSMakeRect(0.f, 0.f, 60.f, 60.f);
-avatarImageView.image = user.avatarImage;
-avatarImageView.borderWidth = 2.f; // Default is 4.0.
+<pre><code>CDMedallionView *medallionImageView = [[CDMedallionView] alloc] init];
+medallionImageView.frame = NSMakeRect(0.f, 0.f, 60.f, 60.f);
+medallionImageView.image = /* some NSImage instance */; 
+medallionImageView.borderWidth = 2.f; // Default is 4.0.
 
-[self.view addSubview:avatarImageView];
+[self.view addSubview:medallionImageView];
 </code></pre>
 
 <p>The class can also used via interface builder, drag out an <code>NSImageView</code> and using the “Identity” inspector (⌘+⌥+3) set the class to <code>CDMedallionView</code>. You can then configure it as you please using the other inspector panels. To change the shine, shadow and border width and color create an outlet to the view and then set those in code.</p>
 
 <h2>Getting the Code</h2>
 
-<p>You can get it from the <a href="https://github.com/rastersize/CDMedallionView">GitHub project rastersize/CDMedallionView</a> where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the MIT license. See <a href="https://github.com/rastersize/CDMedallionView/blob/master/LICENSE">the license file</a> for more information.</p>
+<p>You can get the component from the <a href="https://github.com/rastersize/CDMedallionView">GitHub project <em>rastersize/CDMedallionView</em></a> where you can also create issues and pull requests if you find any problems or opportunity to improve. The code is available under the <em>MIT license</em>. See <a href="https://github.com/rastersize/CDMedallionView/blob/master/LICENSE">the license file</a> for more information.</p>
 ]]></content>
   </entry>
   
