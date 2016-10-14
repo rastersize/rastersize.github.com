@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rastersize
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://aron.cedercrantz.com
+  * I am rastersize (https://keybase.io/rastersize) on keybase.
+  * I have a public key ASAy0pshfSYEGOeFcCsJ3K9hbgcj2jnS9G8_WgEz3E5U0wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012032d29b217d260418e785702b09dcaf616e0723da39d2f46f3f5a0133dc4e54d30a",
+            "host": "keybase.io",
+            "kid": "012032d29b217d260418e785702b09dcaf616e0723da39d2f46f3f5a0133dc4e54d30a",
+            "uid": "d1b2f5a01ff8b3b6e87f31ef7c600919",
+            "username": "rastersize"
+        },
+        "service": {
+            "hostname": "aron.cedercrantz.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1476464471,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1476464406,
+        "hash": "029fb42223b38a69679aa3df595ba92545fc6857dd09cc644967170d0c460343a0d40d2211fb9c0c7c154c88c44fbada4a1803de1d0259507ce02fa69f297af7",
+        "seqno": 676316
+    },
+    "prev": "7c0fc3954bd34d9acf69b1326cda361bc6737d34186aeca2feb1c536b52fc765",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMtKbIX0mBBjnhXArCdyvYW4HI9o50vRvP1oBM9xOVNMKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzJkMjliMjE3ZDI2MDQxOGU3ODU3MDJiMDlkY2FmNjE2ZTA3MjNkYTM5ZDJmNDZmM2Y1YTAxMzNkYzRlNTRkMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzJkMjliMjE3ZDI2MDQxOGU3ODU3MDJiMDlkY2FmNjE2ZTA3MjNkYTM5ZDJmNDZmM2Y1YTAxMzNkYzRlNTRkMzBhIiwidWlkIjoiZDFiMmY1YTAxZmY4YjNiNmU4N2YzMWVmN2M2MDA5MTkiLCJ1c2VybmFtZSI6InJhc3RlcnNpemUifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFyb24uY2VkZXJjcmFudHouY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3NjQ2NDQ3MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc2NDY0NDA2LCJoYXNoIjoiMDI5ZmI0MjIyM2IzOGE2OTY3OWFhM2RmNTk1YmE5MjU0NWZjNjg1N2RkMDljYzY0NDk2NzE3MGQwYzQ2MDM0M2EwZDQwZDIyMTFmYjljMGM3YzE1NGM4OGM0NGZiYWRhNGExODAzZGUxZDAyNTk1MDdjZTAyZmE2OWYyOTdhZjciLCJzZXFubyI6Njc2MzE2fSwicHJldiI6IjdjMGZjMzk1NGJkMzRkOWFjZjY5YjEzMjZjZGEzNjFiYzY3MzdkMzQxODZhZWNhMmZlYjFjNTM2YjUyZmM3NjUiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDzb0WtZhoKRlZsnAUJIjvQUu/s6ueoUi8M2YDdyezv91WhwIhQDBC1vtI2/ZzlBg4+HvUz+OIJobWiLbgA+p0MqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQghkwf/IKw8qBHAnkJJ9TMlhO7K0Eg6kTtyJDKde9PNKajdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rastersize
+
+==================================================================
